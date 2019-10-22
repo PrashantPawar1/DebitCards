@@ -1,0 +1,112 @@
+.App {
+  /*text-align: center;*/
+  height: 100vh;
+  flex: 1;
+  background-color: whitesmoke;
+}
+
+.card{
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: whitesmoke;
+  display: flex;
+  margin-bottom: 10px;
+}
+.row{
+  width: 90%;
+  /*background-color: yellow;*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardInfo{
+   display: flex;
+   padding: 10px;
+}
+
+.cardDetails{
+  align-self: center;
+}
+
+.cardName{
+  margin-left: 10px;
+  font-weight: bold;
+}
+.accountNumber{
+  margin-left: 10px;
+}
+
+.account{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.accountInfo{
+  display: flex;
+  flex-direction: column;
+  margin-left: 44px;
+  justify-content: space-evenly;
+  /*background-color: royalblue;*/
+}
+
+.blockedName{
+  margin-left: 10px;
+  font-weight: bold;
+  align-self:center;
+}
+.accountDetails{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.amount{
+  font-size: 24px;
+  font-weight: bold;
+  color: #4f4f4f;
+}
+
+.cardNumber{
+  color: #a1a1a1;
+  font-size: 14px;
+}
+
+.avatar{
+  width: 80px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: brown;
+}
+
+.option{
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 414px) {
+  .card{
+    padding: 10px;
+  }
+  .row{
+    flex-direction: column;
+    height: 150px;
+  }
+  .accountInfo{
+    align-items: flex-end;
+  }
+  .option{
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 10px;
+  }
+  .accountDetails {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    flex-direction:row;
+  }
+}
